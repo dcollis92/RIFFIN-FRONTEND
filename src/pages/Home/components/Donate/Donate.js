@@ -7,6 +7,7 @@ const Donate = () => {
   return (
     // TODO This can be maped.
     <Stack spacing={3} sx={{textAlign: 'left', maxWidth: '160px'}}>
+      <ReachOut />
       <BuyMeACoffeeButton />
       <Divider >
         <Typography variant="p">Made by</Typography>
@@ -34,7 +35,7 @@ const Donate = () => {
         </a>
       </Stack>
       <Divider />
-      <ReachOut />
+      
     </Stack>
   );
 }
